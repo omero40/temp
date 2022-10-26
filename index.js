@@ -25,6 +25,6 @@ app.post("/api/upload", upload.single("file"), function (req, res) {
   res.status(200).json(file.filename);
 });
 
-app.use("/api/posts", postRoutes);
+app.use("/", postRoutes);
 
 app.listen(process.env.PORT);
