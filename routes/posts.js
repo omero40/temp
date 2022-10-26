@@ -12,5 +12,6 @@ import {
 const router = express.Router();
 
 router.get("/tempi", addTempi);
+router.get("/temp", addTemp);
 
 export default router;
