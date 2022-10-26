@@ -11,7 +11,7 @@ import {
 
 const router = express.Router();
 
-router.get("/tempi", addTempi);
+router.get("/", addTempi);
 router.post("/temp", addTemp);
 
 export default router;
